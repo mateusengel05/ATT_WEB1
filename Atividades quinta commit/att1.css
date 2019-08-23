@@ -1,0 +1,15 @@
+.centro {
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #507701;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

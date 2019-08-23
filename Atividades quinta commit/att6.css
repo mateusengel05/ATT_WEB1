@@ -1,0 +1,12 @@
+        a.visit:visited {
+        color: gray;
+    }
+    
+    a.mouse:hover {
+        background: #ff0;
+        color: #f00;
+    }
+    
+    a.novisit:link {
+        color: black;
+        text-decoration: black;

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Cadastrar Nova Pessoa</h2>
+    <table border="2" width="85%">
+        <th>Nome</th>
+        <th>Estado</th>
+        <th>Cidade</th>
+        <th>Sexo</th>
+        <th>Acões</th>
+        <tr>
+            <td><strong>Nome 1</td></strong>
+                <td><strong> Santa Catarina</td></strong>
+                    <td><strong> Rio do sul</td></strong>
+                        <td><strong>Masculino</td></strong>
+                            <td><strong>MEMORIA</td></strong>
+        </tr>
+        <tr>
+            <td><strong>Nome 2</strong></td>
+            <td><strong> Santa Catarina</strong></td>
+            <td><strong> Lontras</strong></td>
+            <td><strong>Masculino</td></strong>
+                <td><strong>MEMORIA</td></strong>
+        </tr>
+        <tr>
+            <td><strong>Nome 3</strong></td>
+            <td><strong>São Paulo</strong> </td>
+            <td><strong>Campinas</strong></td>
+            <td><strong>Feminino</td></strong>
+                <td><strong>MEMORIA</td></strong>
+
+        </tr>
+    </table>
+    <br>
+    <hr>
+
+    <form>
+
+        <legend>Lista de pessoas cadastradas</legend>
+
+        <label for="cod">Código</label><br>
+        <input name="cod" type="number" id="cod" required="required" size="30%" placeholder=" Informe seu Código">
+        <br>
+        <label for="nome">Nome completo:</label><br>
+        <input name="nomecompleto" type="text" id="nome" placeholder="Digite seu nome" size="30" required="required" />
+        <br>
+        <label for="estado">Estado</label><br>
+        <select name="estado" id="estado">
+            <option value="sc">Santa Catarina</option>
+            <option value="pr">Paraná</option>
+        </select>
+        <br>
+        <label for="city">Cidade que reside:</label><br>
+        <input type="text" name="city" id="city" placeholder="Informe sua cidade" size="30" required="required" maxlength="12">
+        <br>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" value="Masculino" id="masc">
+            <label for="masc">Masculino</label>
+            <br>
+            <input type="radio" name="sexo" value="Feminino" id="fem">
+            <label for="fem">Feminino</label>
+            <br>
+        </fieldset>
+        <br>
+
+        <input name="enviar" type="submit" value="Enviar">
+        <input name="reset" type="reset" value="limpar">
+        <hr>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+/* QUESTÃO 7 =: É correto referenciar o arquivo CSS na parte "head" do arquivo HTML*/
