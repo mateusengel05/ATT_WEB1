@@ -1,0 +1,315 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        width: 468px;
+        height: 60px;
+        margin: auto;
+        background-color: white;
+    }
+    
+    .cabeçalho {
+        width: 468px;
+        height: 60px;
+        background: url(https://www.brandcrowd.com/gallery/brands/pictures/picture15325260877662.png);
+        border-style: solid;
+        margin: auto;
+        text-align: center;
+        border-style: ridge;
+    }
+    
+    .começo {
+        font-size: 18px;
+        font-family: cursive;
+        color: green;
+    }
+    
+    .botao1 {
+        float: left;
+        background-color: green;
+        width: 156px;
+        height: 25px;
+        text-align: center;
+        border-style: ridge;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .botao1:hover {
+        color: goldenrod;
+    }
+    
+    .botao2 {
+        float: left;
+        background-color: chocolate;
+        width: 156px;
+        height: 25px;
+        text-align: center;
+        border-style: ridge;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .botao2:hover {
+        color: goldenrod;
+    }
+    
+    .botao3 {
+        float: left;
+        background-color: chocolate;
+        width: 156px;
+        height: 25px;
+        text-align: center;
+        border-style: ridge;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .botao3:hover {
+        color: goldenrod;
+    }
+    /* CARDS */
+    
+    .foto1 {
+        float: left;
+        clear: left;
+        background-color: green;
+        position: relative;
+        top: 50px;
+        width: 156px;
+        height: 165px;
+        text-align: center;
+        border-style: ridge;
+        border-bottom-style: dotted;
+        text-decoration: none;
+        color: white;
+        border-color: white;
+        box-shadow: 2px 2px 3px #000;
+    }
+    
+    .foto2 {
+        float: left;
+        background-color: green;
+        position: relative;
+        top: 50px;
+        width: 156px;
+        height: 165px;
+        text-align: center;
+        border-style: ridge;
+        border-bottom-style: dotted;
+        text-decoration: none;
+        color: white;
+        border-color: white;
+        box-shadow: 2px 2px 3px #000;
+    }
+    
+    .foto3 {
+        float: left;
+        background-color: green;
+        position: relative;
+        top: 50px;
+        width: 156px;
+        height: 165px;
+        text-align: center;
+        border-style: ridge;
+        border-bottom-style: dotted;
+        text-decoration: none;
+        color: white;
+        border-color: white;
+        box-shadow: 2px 2px 3px #000;
+    }
+    /*CAD1 COM ICONES*/
+    
+    .imagem1 {
+        float: left;
+        clear: left;
+        background-color: green;
+        position: relative;
+        top: 50px;
+        width: 156px;
+        height: 45px;
+        text-align: center;
+        border-style: ridge;
+        border-top-style: none;
+        text-decoration: none;
+        color: white;
+        border-color: white;
+        box-shadow: 0px 1px 1px #000;
+    }
+    
+    .teste {
+        width: 30px;
+        float: left;
+        padding: 0.1em;
+        position: relative;
+        top: 6px;
+        margin: 0 7px;
+    }
+    
+    .ts {
+        width: 30px;
+        float: left;
+        padding: 0.1em;
+        position: relative;
+        top: 6px;
+        margin: 0 7px;
+    }
+    
+    .pd {
+        width: 30px;
+        float: left;
+        padding: 0.1em;
+        position: relative;
+        top: 6px;
+        margin: 0 7px;
+    }
+    /*CARD2 COM ICONES*/
+    
+    .imagem2 {
+        float: left;
+        background-color: green;
+        position: relative;
+        top: 50px;
+        width: 156px;
+        height: 45px;
+        text-align: center;
+        border-style: ridge;
+        border-top-style: none;
+        text-decoration: none;
+        color: white;
+        border-color: white;
+        box-shadow: 0px 1px 1px #000;
+    }
+    /* CARD3 COM ICONES*/
+    
+    .imagem3 {
+        float: left;
+        background-color: green;
+        position: relative;
+        top: 50px;
+        width: 156px;
+        height: 45px;
+        text-align: center;
+        border-style: ridge;
+        border-top-style: none;
+        text-decoration: none;
+        color: white;
+        border-color: white;
+        box-shadow: 2px 1px 1px #000;
+    }
+    /*PARTE DO MAPA*/
+    
+    .mapa {
+        width: 225px;
+        height: 200px;
+        float: left;
+        position: relative;
+        top: 70px;
+        box-shadow: 1px 1px 1px 1px #000;
+    }
+    /*CONTATO*/
+    
+    .contato {
+        box-shadow: 1px 1px 1px 1px #000;
+        width: 225px;
+        height: 200px;
+        float: right;
+        position: relative;
+        top: 70px;
+        background-color: rgba(128, 128, 128, 0.288);
+    }
+    
+    .nome {
+        padding: 3px;
+        margin-bottom: 3px;
+        border: 3px;
+        margin-left: 7px;
+        width: 190px;
+        border-style: groove;
+        border-color: black;
+        border-width: 1.5px;
+    }
+    
+    .email {
+        padding: 3px;
+        margin-bottom: 3px;
+        margin-left: 7px;
+        width: 190px;
+        border-style: groove;
+        border-color: black;
+        border-width: 1.5px;
+    }
+    
+    .mensagem {
+        padding: 5px;
+        height: 38px;
+        margin-left: 7px;
+        width: 200px;
+        border-style: groove;
+        border-color: black;
+        border-width: 1.5px;
+    }
+    
+    .enviar {
+        margin-left: 7px;
+        position: relative;
+        top: 8px;
+        background-color: blue;
+        border-style: none;
+        border-radius: 4px;
+        color: white;
+        width: 70px;
+        height: 30px;
+    }
+    /* Logo e descriçao */
+    
+    .center1 {
+        width: 225px;
+        height: 200px;
+        float: left;
+        position: relative;
+        top: 90px;
+    }
+    
+    .logo {
+        width: 220px;
+        height: 100px;
+        position: absolute;
+        float: left;
+        top: 30px;
+    }
+    
+    .center2 {
+        width: 225px;
+        height: 200px;
+        float: right;
+        position: relative;
+        top: 90px;
+    }
+    
+    .descriçao {
+        position: absolute;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .apoio {
+        position: relative;
+        float: left;
+        top: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .link {
+        position: relative;
+        top: 88px;
+        float: right;
+    }
+    
+    footer {
+        position: relative;
+        margin-left: 200px;
+        top: 30px;
+        color: green;
+    }
