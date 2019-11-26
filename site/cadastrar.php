@@ -18,19 +18,20 @@ $u = new usuario;
             <input type="text" name="nome" placeholder="Nome completo" maxlength="30">
             <input type="email" name="email" placeholder="usuario" maxlength="40">
             <input type="password" name="senha" placeholder="senha" maxlength="15">
-            <input type="password" name="confsenha" placeholder="confimar senha" maxlength="15">
+            <input type="password" name="confsenha" placeholder="confirmar senha" maxlength="15">
             <input type="submit" value="cadastrar">
             <a href="cadastrar.php">Sem cadastro?<strong>Cadastre-se </strong></a>
     </div>
     <?php
-    if (isset($_POST['nome'])) {
+    if (isset($_POST['nome'])) 
+    {
         $nome = ($_POST['nome']);
         $email = ($_POST['email']);
         $senha = ($_POST['senha']);
-        $confimarsenha = ($_POST['confsenha']);
+        $confirmarsenha = ($_POST['confsenha']);
         if (!empty($nome) && !empty($email) && !empty($senha) && !empty($confirmarsenha)) {
-            $u->conectar("teste158", "localhost", "root", "");
-            if ($u->msgERRO == "") {
+            $u->conectar("login", "localhost", "root", "");
+            if ($u->msgErro == "") {
                 if ($senha == $confirmarsenha) {
                     if ($u->cadastrar($nome, $email, $senha)) {
                         echo "cadastrado com sucesso! Acesse para entrar!";
@@ -42,12 +43,12 @@ $u = new usuario;
                 } 
                 else 
                 {
-                    echo "Senha e confirmar senha diferentes!";
+                    echo "As senha não batem";
                 }
             } 
             else 
             {
-                echo "Erro: " . $u->msgERRO;
+                echo "Erro: " . $u->msgErro;
             }
         } 
         else
