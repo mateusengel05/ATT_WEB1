@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-color: coral;
+}
+input {
+    display: block;
+    height: 30px;
+    width: 400px;
+    margin: 7px;
+    border-radius: 25px;
+    border:1px solid black;
+    font-size: 14pt;
+    padding: 10px 20px;
+}
+.começo {
+    
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
