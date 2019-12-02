@@ -1,0 +1,57 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family:Tahoma; 
+    font-size:9pt;
+}
+body {
+    background-color: wheat;
+}
+
+.titulo {
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+}
+#divCenter 
+{ 
+    background-color: white; 
+    width: 350px; 
+    height: 250px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+    padding:10px;
+    position: absolute; 
+    top: 50%; 
+    text-align: center;
+    border-radius: 3px;
+    border-style: solid  ;
+
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+a {
+    float: left;
+    padding: 5px;
+}
+
+#divCenter2 
+{ 
+    background-color: white; 
+    width: 350px; 
+    height: 350px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+    padding:10px;
+    position: absolute; 
+    top: 50%; 
+    text-align: center;
+    border-radius: 3px;
+    border-style: solid  ;
+
+}
